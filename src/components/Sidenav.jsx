@@ -1,10 +1,15 @@
-import React from 'react'
-import {AiOutlineMenu} from "react-icons/ai"
+import { useState } from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Sidenav() {
+  const [nav, setNav] = useState(false);
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
   return (
     <div>
-        <AiOutlineMenu/>
+        <AiOutlineMenu className="absolute top-4 right-4 z-[99] md:hidden"/>
     </div>
-  )
+  );
 }
