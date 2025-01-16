@@ -1,4 +1,4 @@
-Tailwind CSS Vite Boilerplate
+Tailwind CSS Vite React Boilerplate
 
 Quickly start new projects with Tailwind CSS and Vite.
 
