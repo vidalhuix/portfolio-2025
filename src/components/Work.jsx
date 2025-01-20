@@ -1,4 +1,3 @@
-import React from "react";
 import { WorkItem } from "./WorkItem";
 
 export const Work = () => {
@@ -22,12 +21,20 @@ export const Work = () => {
       title: "HTML & JavaScript Course",
       duration: "2 month",
       details:
-        "LinkedIn HTML Essential Training & JavaScript Essential Training for begginers",
+        "LinkedIn HTML Essential Training & JavaScript Essential Training for begginers.",
+    },
+    {
+      year: 2010,
+      title: "Design Architect",
+      duration: "+13 years",
+      details: "Click here to go to my earlier professional life.",
     },
   ];
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]"> Work </h1>
+      <h1 className="mb-4 text-4xl font-bold text-center text-[#001b5e]">
+        Work
+      </h1>
       {data.map((item, idx) => (
         <WorkItem
           key={idx}

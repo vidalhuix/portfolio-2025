@@ -1,6 +1,7 @@
 import { Work } from "./components/Work";
 import Main from "./components/Main";
 import Sidenav from "./components/Sidenav";
+import { Projects } from "./components/Projects";
 
 export const App = () => {
   return (
@@ -8,6 +9,8 @@ export const App = () => {
       <Sidenav />
       <Main />
       <Work />
+      <Projects />
     </>
   );
 };
+
