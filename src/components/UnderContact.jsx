@@ -12,7 +12,7 @@ export const UnderContact = () => {
   return (
     <div className="w-full text-sm h-full bg-[#9f1239]">
       <div className="flex flex-col  text-white justify-center items-center p-7">
-        <p className="text-xl mb-2 font-bold">CONTACT</p>
+        {/* <p className="text-xl mb-2 font-bold">CONTACT</p> */}
         <p>Arnau Vidal</p>
         <p>+46708927033</p>
         <p
