@@ -12,7 +12,7 @@ export const ProjectItem = ({
   const filteredTopics = topics.filter((topic) => topic !== "portfolio");
 
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#323235]">
+    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-gray-500">
       <h3 className="absolute text-white bg-black/50 px-2 text-2xl text-shadow font-bold text-center group-hover:hidden">
         {name.replace(/-/g, " ").toUpperCase()}
       </h3>
@@ -33,7 +33,7 @@ export const ProjectItem = ({
             <p>No topics</p>
           )}
         </div>
-        <p className="mb-10 overflow-hidden text-ellipsis whitespace-normal line-clamp-2">
+        <p className="mb-10 text-sm overflow-hidden text-ellipsis whitespace-normal line-clamp-2">
           {description}
           <span className="text-white ml-auto"> Created {created_at}.</span>
         </p>

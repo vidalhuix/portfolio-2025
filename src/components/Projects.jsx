@@ -52,8 +52,8 @@ export const Projects = () => {
   };
 
   return (
-    <div className=" px-10 mx-auto">
-      <h1 className="mb-6 text-4xl font-bold text-center text-[#001b5e]">
+    <div id="projects" className="my-7 p-4 mx-auto max-w-5xl">
+      <h1 className="mb-6 text-4xl font-bold text-center text-gray-800">
         Featured projects
       </h1>
       {error && <div>Error: {error.message}</div>}
