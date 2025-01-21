@@ -6,7 +6,7 @@ export const Presentation = () => {
         <span className=" w-3 h-3 inline-block mr-2 rounded-full bg-[#9f1239] "></span>
         I'm a web developer trained in JavaScript and React with basic PHP &
         Laravel knowledge. I speak four languages and I have a background in
-        architectural design.
+        architecture.
       </p>
     </div>
   );
