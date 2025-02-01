@@ -1,4 +1,5 @@
 import { WorkItem } from "./WorkItem";
+import { FaLink } from "react-icons/fa6";
 
 export const Work = () => {
   const data = [
@@ -27,12 +28,12 @@ export const Work = () => {
       year: 2010,
       title: "Design Architect",
       duration: "+13 years",
-      details: "Click here to go to my earlier professional life.",
+      details: "More in the link below.",
     },
   ];
   return (
     <div id="resume" className="m-auto  my-7 sm:pl-10 p-4 bg-stone-100">
-      <div className="max-w-3xl m-auto  my-7 p-4">
+      <div className="relative max-w-3xl m-auto  my-7 p-4">
         <h1 className="mb-4 text-4xl font-bold text-center text-gray-800">
           Work
         </h1>
@@ -45,6 +46,13 @@ export const Work = () => {
             details={item.details}
           />
         ))}
+        <a
+          href="https://arnau-vidal.netlify.app/"
+          className="absolute inline-block cursor-pointer left-[8px]"
+        >
+          <FaLink className="fill-[#9f1239]  inline-block " />
+          <span className="text-[#9f1239] ml-4">Click here</span>
+        </a>
       </div>
     </div>
   );
