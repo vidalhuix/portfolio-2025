@@ -5,17 +5,17 @@ export const Work = () => {
   const data = [
     {
       year: 2024,
-      title: "Intership at Campusbokhandeln",
+      title: "Internship at Campusbokhandeln",
       duration: "3 month",
       details:
         "I developed a web application with React and Laravel to automate book purchases based on course data. Designed a database, with large data sets and created features for improved UX. Aim to save time for the staff.",
     },
     {
       year: 2024,
-      title: "Webbdevelopment bootcamp at Technigo",
+      title: "Webb Development bootcamp at Technigo",
       duration: "7 month",
       details:
-        "Front End Development with JavaScript (ES6), React. HTML5 & CSS3. Responsive web design  and availability APIs and https requests. Backend programming with Node.js and Express. Storage of data with MongoDB-database and Mongoose. Industry standard tool for version control, distribution, etc. methods for teamwork development and remote work.",
+        "Front End Development with JavaScript (ES6), React. HTML5 & CSS3. Responsive web design using APIs and https requests. Backend programming with Node.js and Express. Data storage using MongoDB-database and Mongoose. Use of industry-standard tools for version control, deployment, and methods for teamwork and remote development.",
     },
     {
       year: 2023,

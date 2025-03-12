@@ -5,7 +5,7 @@ export const Skills = () => {
       items: [
         "HTML5",
         "CSS3",
-        "Javascript ES6",
+        "JavaScript ES6",
         "React",
         "Styled Components",
         "Tailwind",
@@ -14,14 +14,14 @@ export const Skills = () => {
     {
       category: "Toolbox",
       items: [
-        "Visual Studio Code",
+        "VS Code",
         "GitHub",
         "Postman",
-        "Slack, Tupple",
+        "Slack, Tuple",
         "Figma",
         "Trello",
         "2D & 3D tools",
-        "Agile metodology",
+        "Agile methodology",
       ],
     },
     {
@@ -30,16 +30,16 @@ export const Skills = () => {
         "Architecture degree:",
         "12 years working experience:",
         "+2 years as a supervisor",
-        "in large projects",
-        "in collaboration",
-        "in process design",
-        "in concept development",
-        "in planning and delivery",
+        "In large projects",
+        "In collaboration",
+        "In process design",
+        "In concept development",
+        "In planning and delivery",
       ],
     },
     {
       category: "Upcoming",
-      items: ["TypeScript", "Next.js", "Phyton", ".Net", "C#"],
+      items: ["TypeScript", "Next.js", "Python", ".Net", "C#"],
     },
   ];
 
