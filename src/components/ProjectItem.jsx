@@ -17,7 +17,7 @@ export const ProjectItem = ({
         {name.replace(/-/g, " ").toUpperCase()}
       </h3>
       <img
-        className="rounded-xl w-full h-full cover group-hover:opacity-5"
+        className=" w-full h-full cover group-hover:opacity-5"
         src={imageLink}
         alt="Project-image"
       />
