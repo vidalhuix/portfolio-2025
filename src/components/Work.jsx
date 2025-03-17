@@ -50,8 +50,8 @@ export const Work = () => {
           href="https://arnau-vidal.netlify.app/"
           className="absolute inline-block cursor-pointer left-[8px]"
         >
-          <FaLink className="fill-[#9f1239]  inline-block " />
-          <span className="text-[#9f1239] ml-4">Click here</span>
+          <FaLink className="fill-[#145a5a]  inline-block " />
+          <span className="text-[#145a5a] ml-4">Click here</span>
         </a>
       </div>
     </div>

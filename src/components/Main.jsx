@@ -18,7 +18,7 @@ export default function Main() {
             Hi,
             <br />
             I'm
-            <span className="text-[#9f1239]"> Arnau Vidal</span>
+            <span className="text-[#145a5a]"> Arnau Vidal</span>
           </h1>
           <h1 className="sm:text-5xl font-bold text-4xl text-gray-800">
             Web Developer.

@@ -10,7 +10,7 @@ export const UnderContact = () => {
     setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
   };
   return (
-    <div className="w-full text-sm h-full bg-[#9f1239]">
+    <div className="w-full text-sm h-full bg-[#145a5a]">
       <div className="flex flex-col  text-white justify-center items-center p-7">
         {/* <p className="text-xl mb-2 font-bold">CONTACT</p> */}
         <p>Arnau Vidal</p>
@@ -20,10 +20,8 @@ export const UnderContact = () => {
           className="text-white cursor-copy hover:text-gray-300 transition-colors"
         >
           arnauvidal@gmail.com
-        </p> {copied && (
-          <FaCopy className="text-sm text-gray-300 mt-2"/>
-          
-        )}
+        </p>{" "}
+        {copied && <FaCopy className="text-sm text-gray-300 mt-2" />}
       </div>
     </div>
   );

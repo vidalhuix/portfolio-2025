@@ -23,25 +23,25 @@ export const Contact = () => {
           >
             <FaLinkedin
               size={35}
-              className="cursor-pointer scale-150 mr-2 fill-[#9f1239]"
+              className="cursor-pointer scale-150 mr-2 fill-[#145a5a]"
             />
           </a>
           <a href="https://github.com/vidalhuix" target="_blank">
             <FaGithub
               size={33}
-              className="cursor-pointer scale-150 fill-[#9f1239]"
+              className="cursor-pointer scale-150 fill-[#145a5a]"
             />
           </a>
           <a
-              href="/CV Arnau Vidal - Web developer.pdf"
-              download="CV Arnau Vidal - Web developer.pdf"
-              className="relative flex flex-row justify-center items-center  py-2 border-gray-800  hover:scale-105  duration-100 group"
-            >
-              <FaFileDownload size={42} className="fill-[#9f1239]  " />
-              <span className="absolute hidden w-[300px] text-[#9f1239] font-semibold text-sm gray-200 overflow-hidden group-hover:block group-hover:animate-reveal pl-[200px]">
-                CV Arnau Vidal - Web developer.pdf
-              </span>
-            </a>
+            href="/CV Arnau Vidal - Web developer.pdf"
+            download="CV Arnau Vidal - Web developer.pdf"
+            className="relative flex flex-row justify-center items-center  py-2 border-gray-800  hover:scale-105  duration-100 group"
+          >
+            <FaFileDownload size={42} className="fill-[#145a5a]  " />
+            <span className="absolute hidden w-[300px] text-[#145a5a] font-semibold text-sm gray-200 overflow-hidden group-hover:block group-hover:animate-reveal pl-[200px]">
+              CV Arnau Vidal - Web developer.pdf
+            </span>
+          </a>
         </div>
       </div>
     </div>
