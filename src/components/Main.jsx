@@ -64,7 +64,7 @@ export default function Main() {
       <img
         src={ProfileImg}
         alt="profile image"
-        className="absolute bottom-11 right-4 w-[200px] translate-y-1/3 scale-x-[-1] md:mr-[25%]"
+        className="absolute bottom-11 border-4 shadow-lg rounded-full right-4 w-[200px] translate-y-1/3 scale-x-[1] md:mr-[25%]"
       ></img>
     </div>
   );
