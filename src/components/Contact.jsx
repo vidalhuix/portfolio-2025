@@ -13,9 +13,9 @@ export const Contact = () => {
   return (
     <div id="contact" className="mx-auto my-7 p-4 ">
       <div className="max-w-3xl m-auto  p-4">
-        <h1 className="mb-4 text-4xl font-bold text-center text-gray-800">
+        {/* <h1 className="mb-4 text-4xl font-bold text-center text-gray-800">
           For more
-        </h1>
+        </h1> */}
         <div className="flex flex-row m-auto justify-center gap-4 items-center pt-6 max-w-[100px] w-full">
           <a
             href="https://www.linkedin.com/in/arnau-vidal-4266a940/"
