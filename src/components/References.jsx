@@ -39,7 +39,7 @@ export const References = () => {
     const updateReviewsToShow = () => {
       const width = window.innerWidth;
       if (width > 1000) {
-        setReviewsToShow(3);
+        setReviewsToShow(0);
       } else if (width > 700) {
         setReviewsToShow(2);
       } else {
